@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- Views on left side -->
     <TextView
         android:id="@+id/tvBaseLabel"
         android:layout_width="wrap_content"
@@ -54,7 +53,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvBaseLabel" />
 
-    <!-- Views on right side -->
     <EditText
         android:id="@+id/etBaseAmount"
         android:layout_width="wrap_content"
